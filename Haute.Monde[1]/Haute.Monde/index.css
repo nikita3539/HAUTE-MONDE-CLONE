@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.collapse {
+  position: absolute;
+  right: 0;
+  gap: 20px;
+}
+
+.navbar-nav {
+  gap: 25px;
+  text-transform: capitalize;
+}
+.d-flex {
+  padding-right: 50px;
+}
+#btn-book {
+  background-color: #b78d65;
+  border-color: #b78d65;
+  color: white;
+}
+.navbar-brand {
+  padding-left: 50px;
+}
+
+#aboutus-container {
+  margin-top: 30px;
+}
+#about-head h4 {
+  font-size: 4.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+.search-btn {
+  background-color: rgb(173, 139, 58);
+  border: 2px solid rgb(173, 139, 58);
+  padding: 10px 30px;
+  color: white;
+  font-size: larger;
+}
+#about-content h1 {
+  font-size: 3.4vw;
+  font-weight: bold;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  margin-top: 20px;
+}
+#about-content p {
+  font-family: Inter, sans-serif;
+  color: rgb(103, 103, 102);
+  line-height: 140%;
+  font-weight: 200px;
+  margin-top: 20px;
+  /* font-size: medium; */
+}
+#btn-read {
+  background-color: rgb(173, 139, 58);
+  border: 2px solid rgb(173, 139, 58);
+  padding: 10px 30px;
+  color: white;
+  font-size: larger;
+  margin-top: 20px;
+}
+
+#hotel-img {
+}
+
+.img-fluid {
+  width: 100%;
+  height: 500px;
+}
+#offer-head {
+  margin-top: 50px;
+}
+#offer-head h2 {
+  font-size: 3.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+}
+#offer-head p {
+  text-align: center;
+}
+#button-group {
+  align-items: center !important;
+  text-align: center;
+}
+
+#accordion-button {
+  padding: 20px 70px;
+  color: white;
+  background-color: rgb(198, 164, 86);
+  border: 2px solid rgb(198, 164, 86);
+  font-family: "Playfair Display", serif;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+.accordion-btn {
+  padding: 20px 72px;
+
+  background-color: rgb(220, 217, 212);
+  border: 2px solid rgb(220, 217, 212);
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.accordion-btn:hover {
+  background-color: rgb(198, 164, 86);
+  color: white;
+}
+#accordion-button:hover {
+  background-color: rgb(220, 217, 212);
+  color: black;
+  border: 2px solid rgb(220, 217, 212);
+}
+
+#nature-family-container {
+  text-align: center;
+}
+#nature-img img {
+}
+#nature-family-container {
+  margin-top: 30px;
+}
+#escape-container {
+  margin-top: 25px;
+}
+#escape-container h2 {
+  font-size: 2.1vw;
+  font-weight: bold;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+}
+#escape-container p {
+  font-family: Inter, sans-serif;
+  color: rgb(141, 140, 136);
+  line-height: 140%;
+  font-weight: 200px;
+}
+
+#offer-head h2 {
+  font-size: 3.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+}
+
+#hotel-container h2 {
+  font-size: 3.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#hotel-crousel H4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: cursive;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#secondcrousel-slide h4 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: cursive;
+  margin-top: 20px;
+  text-align: center;
+}
+#crousel-slider-container {
+  gap: 20px;
+}
+
+#reward-container h2 {
+  font-size: 3.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#member-container {
+  /* width: 500px; */
+}
+
+#member-data h3 {
+  font-size: 2.1vw;
+  font-weight: bold;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  margin-bottom: 20px;
+}
+#member-data p {
+  font-family: Inter, sans-serif;
+  color: rgb(141, 140, 136);
+  line-height: 140%;
+  font-weight: 200px;
+  letter-spacing: 0.1em;
+  line-height-step: 1em;
+}
+#experience-container h2 {
+  font-size: 3.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#card-group {
+  width: 200px !important;
+  height: auto;
+
+  text-align: center;
+}
+#card-group img {
+  margin-top: 50px;
+}
+#card-group h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#member-img img {
+  max-width: inherit;
+}
+#card-group {
+  font-family: Inter, sans-serif;
+  color: rgb(141, 140, 136);
+
+  font-weight: 200px;
+  border: 2px solid #f9db78;
+
+  background-color: rgb(239, 228, 228);
+  height: auto;
+  width: 500px !important;
+}
+
+#card-row-two {
+  /* background-color: aqua; */
+}
+
+#testimonial-container h4 {
+  font-size: 4.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+#employee-logo {
+  text-align: center;
+}
+#awards-container {
+  text-align: center;
+}
+#employee-logo img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+#awards h2 {
+  font-size: 4.4vw;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+#footer-content {
+  width: 100%;
+  height: auto;
+  color: #f9db78;
+}
+#employee-logo h3 {
+  font-family: cursive;
+  color: gray;
+}
+.btn-more {
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: rgb(162, 207, 244);
+  color: white;
+  border: 2px solid white;
+}
+#footer-content h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(69, 68, 63);
+  font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#footer a {
+  text-decoration: none;
+  color: rgb(61, 60, 60);;
+}
+.coming-soon {
+  border-radius: 10px;
+  padding: 4px 4px;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+@media (min-width: 768px) {
+  .navbar-nav {
+    gap: 15px;
+    /* text-transform: capitalize; */
+  }
+  .d-flex {
+    padding-right: 10px;
+  }
+  .navbar-brand {
+    padding-left: 2px;
+  }
+  #employee-logo img {
+    width: 124px;
+    margin-top: 20px;
+  }
+}
+/* media query */
+@media only screen and (max-width: 600px) {
+  #member-container img {
+    width: 100%;
+    height: 330px;
+  }
+
+  /* #company-title {
+    font-size: 10px;
+    font-family: Cinzel, Palatino Linotype, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+  } */
+  #nature-img img {
+    max-width: 290px;
+  }
+  #hotel-img {
+    display: contents;
+    /* margin-top: 5px; */
+  }
+  #employee-logo img {
+    max-width: 300px;
+    text-align: center;
+  }
+  #about-head h4 {
+    font-size: 9.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+  }
+  #about-content h1 {
+    font-size: 7.9vw;
+    font-weight: bold;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    margin-top: 20px;
+  }
+  #about-content p {
+    /* font-family: Inter, sans-serif; */
+    color: rgb(123, 122, 120);
+    line-height: 140%;
+    font-weight: 200px;
+    margin-top: 20px;
+    /* font-size: small; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+  }
+  #employee-logo h3 {
+    font-family: cursive;
+    color: gray;
+    font-size: 10px;
+  }
+  #member-img {
+    display: contents;
+  }
+  #btn-read {
+    background-color: rgb(173, 139, 58);
+    border: 2px solid rgb(173, 139, 58);
+    padding: 10px 15px;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  #escape-container h2 {
+    margin-top: 20px;
+    font-size: 9.9vw;
+    font-weight: bold;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+  }
+  #escape-container p {
+    font-family: Inter, sans-serif;
+    color: rgb(121, 120, 119);
+    line-height: 140%;
+    font-weight: 200px;
+    text-align: justify;
+  }
+  #offer-head h2 {
+    font-size: 9.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+    text-align: center;
+  }
+  #offer-head P {
+    font-size: small;
+  }
+  .btn-more {
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgb(162, 207, 244);
+    color: white;
+    border: 2px solid white;
+  }
+  #hotel-container h2 {
+    font-size: 7.9vw;
+    font-weight: 400;
+    color: rgb(34, 33, 32);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #hotel-crousel H4 {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: cursive;
+    margin-top: 20px;
+    text-align: center;
+  }
+  #hotel-crousel p {
+    font-size: small;
+    margin-top: 20px;
+    align-items: center;
+  }
+  #secondcrousel-slide h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: cursive;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #reward-container h2 {
+    font-size: 8.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #member-data h3 {
+    font-size: 7.9vw;
+    font-weight: bold;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  #member-data p {
+    font-family: Inter, sans-serif;
+    color: rgb(114, 113, 111);
+    line-height: 140%;
+    font-weight: 200px;
+    letter-spacing: 0.1em;
+    line-height-step: 1em;
+    font-size: 1em;
+  }
+  #experience-container h2 {
+    font-size: 5.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #card-group h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #testimonial-container h4 {
+    font-size: 5.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+  }
+  #awards h2 {
+    font-size: 5.9vw;
+    font-weight: 400;
+    color: rgb(69, 68, 63);
+    font-family: Cinzel, "Palatino Linotype", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+  }
+  #employee-logo h4 {
+    font-family: cursive;
+    color: gray;
+  }
+
+  #footer-content {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #footer a {
+    text-decoration: none;
+    color: gray;
+  }
+  .img-fluid .navbar-nav {
+    gap: 15px;
+    /* text-transform: capitalize; */
+  }
+
+  .d-flex {
+    padding-right: 10px;
+  }
+  .navbar-brand {
+    padding-left: 2px;
+  }
+  #employee-logo img {
+    width: 124px;
+    margin-top: 20px;
+  }
+}
